@@ -1,1 +1,1 @@
-x is even
+Invalid day
