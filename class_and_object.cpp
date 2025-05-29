@@ -11,12 +11,11 @@ public:
 
 int main()
 {
-  Student a;
-  char temp[100] = "Abu Hosain";
-  strcpy(a.name, temp);
-  a.roll = 101;
-  a.gpa = 3.75;
-
+  Student a, b;
+  cin >> a.name >> a.roll >> a.gpa;
+  cin >> b.name >> b.roll >> b.gpa;
+  
   cout << a.name << " " << a.roll << " " << a.gpa << endl;
+  cout << b.name << " " << b.roll << " " << b.gpa << endl;
   return 0;
 };
