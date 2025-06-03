@@ -10,7 +10,8 @@ int main(){
     // s.pop_back();
     // string s2 = "hi";
     // s1 = s2;
-    s1.assign(s);
-    cout << s1 << endl;  
+    // s1.assign(s);
+    s.erase();
+    cout << s << endl;  
    return 0;
 };
