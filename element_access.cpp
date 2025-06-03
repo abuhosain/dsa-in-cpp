@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
    string s = "hello";
-   cout << s[0] << endl; // Accessing first character
+   cout << s[0] << endl; 
+   cout << s.at(0) << endl;
    return 0;
 };
