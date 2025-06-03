@@ -7,6 +7,7 @@ int main(){
     // s+= s1;
     // s.append(s1);
     s.push_back('!');
+    s.pop_back();
     cout << s << endl;  
    return 0;
 };
